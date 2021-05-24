@@ -1,0 +1,9 @@
+<meta>
+	<info author='rdror' name='Discord Messages' version='12.05.2021'/>
+
+	<min_mta_version client='1.5.5' server='1.5.5' />
+
+	<script src='ShDiscord.lua' type='server' />
+	<script src='DiscordMessages.lua' type='server' />
+	<export function='SendMessage' type='server' />
+</meta>
