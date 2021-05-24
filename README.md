@@ -7,7 +7,7 @@ In the ShDiscord.lua file in the Settings array, webhook_link is a link to Disco
 
 Send message (Server side only):
 ```lua
-  -- Both export:
+  -- Export:
   exports["mtasa-discord-api"]:SendMessage( sChannel, sMessage )
   -- or so
   exports.mtasa-discord-api:SendMessage( sChannel, sMessage )
